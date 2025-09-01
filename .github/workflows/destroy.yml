@@ -33,7 +33,7 @@ jobs:
           fi
           echo "✅ Destruction confirmed for ${{ github.event.inputs.environment }} environment"
 
-  # レイヤー1: CI/CD・アプリケーション（逆順）
+  # レイヤー1:  CI/CD・アプリケーション（逆順）
   application:
     name: Destroy Application Layer
     runs-on: ubuntu-latest
