@@ -9,8 +9,8 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - 'envs/prod/**'
+    # paths:
+    #   - 'envs/prod/**'
 
 env:
   AWS_REGION: ap-northeast-1
